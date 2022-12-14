@@ -1,0 +1,93 @@
+html {
+  font-size: 20px;
+  font-size: 50%;
+}
+
+* {
+  font-family: "Roboto Mono";
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 600px;
+  margin: 0rem auto 2rem auto;
+}
+
+.menu {
+  display: inline-block;
+  padding: 1rem 1rem;
+  border-radius: 10%;
+  text-decoration: none;
+  margin: 0.5rem 8% 1rem 8%;
+  color: white;
+}
+
+.menu:hover {
+  background-color: white;
+  color: red;
+  border-style: solid;
+  border-color: red;
+}
+
+.gez {
+  background-color: #ff764e;
+}
+
+.bilgi {
+  background-color: #5ed3eb;
+}
+
+.karsi {
+  background-color: #ffcd69;
+}
+
+.bol-image {
+  width: 25%;
+  display: inline-block;
+  padding-left: 2rem;
+}
+.bol-yazi {
+  width: 65%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+.ozel-kutu {
+  background: #ddb9a3;
+  color: white;
+  text-align: center;
+}
+
+.aciklama {
+  width: 25%;
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+}
+
+footer {
+  background-color: #f9e7dc;
+  padding: 0px auto;
+  height: 20rem;
+  margin-top: 10rem;
+}
+
+.peri-bacalari {
+  font-family: "Chelsea Market";
+}
+
+span {
+  font-weight: bold;
+}
+
+.ozel-kutu:hover {
+  background: white;
+  color: #ddb9a3;
+  text-align: center;
+  border-style: solid;
+  border-color: #ddb9a3;
+  padding: 0px;
+}
